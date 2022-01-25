@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Github Stars</title>
+        <style>
+            #container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 400px;
+            }
+
+            #langDiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+        <div id="container">
+            <img src="/icons/48.png" alt="Github Stars Icon"></img>
+            <h1>Welcome to Github Stars!</h1>
+            <h2>Hover over a Github repository link and see the number of stars it has earned.</h2>
+            <div id="langDiv">
+                <input type="checkbox" id="lang" />
+                <label for="lang">Show Languages</label>
+            </div>
+        </div>
+        </main>
+    </body>
+    <script src="popup.js"></script>
+</html>
