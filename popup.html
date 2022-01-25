@@ -19,6 +19,24 @@
                 justify-content: center;
                 align-items: center;
             }
+
+            #tokenForm {
+                display: none;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                gap: 5px;
+            }
+
+            #success {
+                display: none;
+            }
+
+            #change {
+                display: none;
+                margin-top: 10px;
+            }
         </style>
     </head>
     <body>
@@ -31,6 +49,13 @@
                 <input type="checkbox" id="lang" />
                 <label for="lang">Show Languages</label>
             </div>
+            <form id="tokenForm">
+                <label for="token">Access Token</label>
+                <input type="text" id="token" />
+                <input type="submit" value="Submit" aria-label="Submit" />
+            </form>
+            <h2 id="success">Token submitted! Now this token will be used to make requests.</h2>
+            <button id="change">Change Token</button>
         </div>
         </main>
     </body>
