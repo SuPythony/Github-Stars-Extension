@@ -33,4 +33,10 @@ git clone https://github.com/SuPythony/Github-Stars-Extension
 4. Browse for the folder with the code and upload it
 5. The extension will be installed!
 
+---
 
+## Usage
+
+You can goto any website and hover over any github repository link, and the extension will fetch the stars and show them in the tooltip. You can also click on the extension icon and then in the popup you can select whether to show the languages too. If selected, the extension will show the languages of the repository along with the stars.
+
+If you get a rate limiting error you can provide an ![access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) in the popup and that will be used for the requests. It is not collected and only stored in local storage.
