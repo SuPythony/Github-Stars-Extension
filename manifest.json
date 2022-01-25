@@ -1,7 +1,7 @@
 {
   "name": "Github Stars",
   "description": "See the number of stars earned by a github repository while hovering over a link.",
-  "version": "1.0",
+  "version": "1.0.0",
   "manifest_version": 3,
   "content_scripts": [{
     "matches": ["<all_urls>"],
