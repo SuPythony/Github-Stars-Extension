@@ -2,6 +2,10 @@
 
 See the stars of a Github repository while hovering over its link without needing to navigate to it.
 
+## Why
+
+Many a times when we are on the website of a library or framework, we want to see the number of stars earned by it on its github repository. To do this we usually click on the github link on their website, navigate to the tab, see the stars and navigate back to the website. But this is a long process and I somethimes wish that the stars were right alongside the github link. So this extension was created. While just hovering over a link, you can see the stars earned by the repository and there is no need to navigate to the link.
+
 ## Installation
 
 ### Step 1: Download the source code
