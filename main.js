@@ -78,9 +78,9 @@ function main() {
                             link.title = "Can't fetch stars - not a github repository";
                             return;
                         }
-                        link.title = "Fetching stars... Hover the link again to see the stars";
                         let splitted = href.split("/");
                         if (splitted[splitted.length - 3] === "github.com") {
+                            link.title = "Fetching stars... Hover the link again to see the stars";
                             let url = `https://api.github.com/repos/${
                                 splitted[splitted.length - 2]
                             }/${splitted[splitted.length - 1]}`;
@@ -171,8 +171,6 @@ function main() {
                                         }
                                     });
                             });
-                        } else {
-                            link.title = "Can't fetch stars - not a github repository";
                         }
                     }
                 });
