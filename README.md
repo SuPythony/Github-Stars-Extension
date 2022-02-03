@@ -8,6 +8,8 @@ Many a times when we are on the website of a library or framework, we want to se
 
 ## Installation
 
+You can directly install it from the Chrome Web Store [here](https://chrome.google.com/webstore/detail/github-stars/gppcomlihamjbakpnjafgmolpieofdmm) or install it manually by following the steps below.
+
 ### Step 1: Download the source code
 
 #### Method 1:
