@@ -1,3 +1,5 @@
+<a href="https://www.producthunt.com/posts/github-stars-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-github&#0045;stars&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=351360&theme=light" alt="Github&#0032;Stars - Find&#0032;out&#0032;the&#0032;stars&#0032;and&#0032;languages&#0032;of&#0032;a&#0032;repo&#0032;from&#0032;its&#0032;link | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 # Github Stars Extension
 
 See the stars of a Github repository while hovering over its link without needing to navigate to it.
