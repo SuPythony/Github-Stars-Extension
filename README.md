@@ -60,3 +60,5 @@ If you get a rate limiting error you can provide an [access token](https://docs.
 ## Contributing
 
 If you find any errors, you can raise an issue [here](https://github.com/SuPythony/Github-Stars-Extension/issues). You can also raise new feature requests. You are welcome to make a pull request to solve any issue or add a new feature.
+
+This extension is not affiliated with GitHub in any way.
