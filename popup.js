@@ -2,11 +2,25 @@ chrome.storage.sync.get(
     "showLangs",
     ({ showLangs }) => (document.getElementById("lang").checked = showLangs),
 );
+
+chrome.storage.sync.get(
+    "prefetch",
+    ({ prefetch }) => (document.getElementById("prefetch").checked = prefetch),
+);
+
 document.getElementById("lang").onchange = () => {
     if (document.getElementById("lang").checked) {
         chrome.storage.sync.set({ showLangs: true });
     } else {
         chrome.storage.sync.set({ showLangs: false });
+    }
+};
+
+document.getElementById("prefetch").onchange = () => {
+    if (document.getElementById("prefetch").checked) {
+        chrome.storage.sync.set({ prefetch: true });
+    } else {
+        chrome.storage.sync.set({ prefetch: false });
     }
 };
 

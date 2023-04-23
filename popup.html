@@ -20,6 +20,12 @@
                 align-items: center;
             }
 
+            #prefetchDiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
             #tokenForm {
                 display: none;
                 flex-direction: column;
@@ -48,6 +54,10 @@
             <div id="langDiv">
                 <input type="checkbox" id="lang" />
                 <label for="lang">Show Languages</label>
+            </div>
+            <div id="prefetchDiv">
+                <input type="checkbox" id="prefetch" />
+                <label for="prefetch">Prefetch Data</label>
             </div>
             <form id="tokenForm">
                 <label for="token">Access Token</label>
