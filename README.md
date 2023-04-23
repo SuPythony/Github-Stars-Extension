@@ -1,12 +1,22 @@
+<a href="https://www.producthunt.com/posts/github-stars-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-github&#0045;stars&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=351360&theme=light" alt="Github&#0032;Stars - Find&#0032;out&#0032;the&#0032;stars&#0032;and&#0032;languages&#0032;of&#0032;a&#0032;repo&#0032;from&#0032;its&#0032;link | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 # Github Stars Extension
 
 See the stars of a Github repository while hovering over its link without needing to navigate to it.
 
-## Why
+- <a href="#why">Why?</a>
+- <a href="#installation">Installation</a>
+- <a href="#usage">Usage</a>
+- <a href="#contributing">Contributing</a>
+
+
+## Why?
 
 Many a times when we are on the website of a library or framework, we want to see the number of stars earned by it on its github repository. To do this we usually click on the github link on their website, navigate to the tab, see the stars and navigate back to the website. But this is a long process and I somethimes wish that the stars were right alongside the github link. So this extension was created. While just hovering over a link, you can see the stars earned by the repository and there is no need to navigate to the link.
 
 ## Installation
+
+You can directly install it from the Chrome Web Store [here](https://chrome.google.com/webstore/detail/github-stars/gppcomlihamjbakpnjafgmolpieofdmm) or install it manually by following the steps below.
 
 ### Step 1: Download the source code
 
@@ -43,12 +53,12 @@ git clone https://github.com/SuPythony/Github-Stars-Extension
 
 You can goto any website and hover over any github repository link, and the extension will fetch the stars and show them in the tooltip. You can also click on the extension icon and then in the popup you can select whether to show the languages too. If selected, the extension will show the languages of the repository along with the stars.
 
-If you get a rate limiting error you can provide an [access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) in the popup and that will be used for the requests. It is not collected and only stored locally.
+If you get a rate limiting error you can provide an [access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) in the popup and that will be used for the requests. You don't need to provide any access scopes to the token. It is not collected and only stored locally.
 
 ---
 
 ## Contributing
 
-This extension is new and may have some errors. If you find any you can raise an issue [here](https://github.com/SuPythony/Github-Stars-Extension/issues). You can also raise new feature requests. You are welcome to make a pull request to solve any issue or add a new feature.
+If you find any errors, you can raise an issue [here](https://github.com/SuPythony/Github-Stars-Extension/issues). You can also raise new feature requests. You are welcome to make a pull request to solve any issue or add a new feature.
 
-**DISCLAIMER:** This project is neither supported nor endorsed by Github
+This extension is not affiliated with GitHub in any way.
